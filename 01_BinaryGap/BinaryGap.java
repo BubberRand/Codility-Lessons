@@ -22,6 +22,7 @@ N is an integer within the range [1..2,147,483,647].
 import java.util.Scanner;
 
 public class BinaryGap {
+    //Driver Function
     public static void main(String[] args) 
     {
         Scanner kb = new Scanner(System.in);
@@ -32,6 +33,7 @@ public class BinaryGap {
         kb.close();
     }
 
+    //Solution Code
     public static int binaryGapFun(int n) 
     {
         String binaryNum = Integer.toBinaryString(n);
